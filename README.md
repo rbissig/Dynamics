@@ -3,38 +3,45 @@
 
 > * Group Name: (Mensa)
 > * Group participants names: (Bissig Raphael, Hottinger Daniel)
-> * Project Title: (Analyzing different food queues dynamics at different Mensas at ETH Zürich using Cellular automata and other aproaches)
+> * Project Title: 
 
 ## General Introduction
 
-(Wherever people are the demnand of food is crucial. especially at a big university like the ETH. There are several different offers at different places to feed the immense amount of hungry students and academical statt. Since the beginning of the Spring semester 2014 the chemistry biuliding HCI at the ETH hoenggerberg the Restaurant opened it's doors, which was rebuilt  in order to optimize the troughput and space for the masses of people. Here the before and afteer situation of the food service and cashier line are investigated and compared to other architectures of different Mensas a the ETH zürich.)
+Wherever people are the demnand of food is crucial. Especially at a big university like the ETH. There are several different offers at different places to feed the immense amount of hungry students and academical staff. In Spring semester 2014 at the chemistry biuliding HCI, ETH Hoenggerberg the Restaurant reopened it's doors, which was rebuilt  in order to optimize the troughput and space for the masses of people. Here the before and after situation of the Mensa are simulated and analyzed to judge the renovation's improvement)
 
 ## The Model
-(During the two hours the Restaurant it open a dynamic flow of people enters the food service line. A first decision is made by the choice of the menu and resolves in a specific distribution of people at the diffenet stations. The walk to the cashpoint folloes which is the  same for evereyone. The total troughput depends on the number of food stations and chashpoints and the architecture of the Mensa.)
-
+During the two hours of food service a dynamic flow of people enter the Mensa. This flow depends on the end of the different student's classes as well as the breaktime of the academical staff. It can be simulated whith different density peaks representing the end of a class. Additional a group dynamic must be implemented because normally people don't eat alone in such a setting.
+The Mensa is differatiated in three different parts:
+- 1. obtaining food and pay for it
+- 2. search a place to sit and eat
+- 3. return the dishes and leave
+1. In this part line formation apears. People line in according to their chosen menu which is considered as a long-range interaction. After receiving the food the interaction immediately changes to the requirement to pay for the food an walk to the chash box. Due to the high flow of the people line formation is observed again. Hte specific architecture of the food stations and cash boxes play an important role in this part.
+2. After passing through part 1 the search of a place to sit is obvious. When a group formation before entering the Mensa is assumed the needs for the place to sit is bound to several of the group's parameters e.g. amount of people. Then people eat the food which takes time. This will be simulated by an averaged eating time with some deviations.
+3. After eating the dishes have to be returned and the Mensa is left using the nearest exit. 
 
 ## Fundamental Questions
-(How is the choice of the food been made? How many food stations and chashpoints per space can be used to generate the maximum troughput? How does the architecture influence the floww of te people)
+How does the flow of the people look like?
+What is the average time to pass through part 1? Are there big differences depending on time?
+How does the group formation influence the choice od the seats? Are there gaps?
+What role has the Mensa's architecture? 
+How did the throughput improce since the renovation? Are there weak points of the new design?
+
 
 
 ## Expected Results
 
-(For the Mensa in the chemistry biulding a clear improvement of the trhoughput is expected which can be explained by the reasons mentioned above. Additional a comparison to the POlymensa at the main builing will go in favor to the Chemistry Mensa due to empirical valies)
+A clear improvent of the thoughput is expected due to more food stations more cash boxes and more place to sit. However a clear weak point will be int the last part by returning the dishes. This is showns by the empirical observed line formation at the station where the dishes should be returned. 
 
 
 ## References 
 
-(Add the bibliographic references you intend to use)
-(Explain possible extension to the above models)
-(Code / Projects Reports of the previous year)
+CA Approach to Collective Phenomena in Pedestrian Dynamics matched to the architecture of the Mensa
 
 
 ## Research Methods
 
-(Cellular Automata, Agent-Based Model, Continuous Modeling...) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards)
-
+Cellular Automata, Agent-Based Model, Continuous Modeling
 
 ## Other
 
-(Mensas could be asked if they provide us numercal data of menues and there distibution )
-in
+The Mensa is asked to provide us data sets so set up important and fixed parameters.
