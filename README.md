@@ -3,11 +3,11 @@
 
 > * Group Name: (Mensa)
 > * Group participants names: (Bissig Raphael, Hottinger Daniel)
-> * Project Title: 
+> * Project Title: Simulating behavoir in the Mensa at HCI, ETH Hoenggerberg using CA and agent based approaches
 
 ## General Introduction
 
-Wherever people are the demnand of food is crucial. Especially at a big university like the ETH. There are several different offers at different places to feed the immense amount of hungry students and academical staff. In Spring semester 2014 at the chemistry biuliding HCI, ETH Hoenggerberg the Restaurant reopened it's doors, which was rebuilt  in order to optimize the troughput and space for the masses of people. Here the before and after situation of the Mensa are simulated and analyzed to judge the renovation's improvement)
+Wherever people are the demnand of food is crucial. Especially at a big university like the ETH. There are several different offers at different places to feed the immense amount of hungry students and academical staff. In Spring semester 2014 at the chemistry biuliding HCI, ETH Hoenggerberg the Restaurant reopened it's doors, which was rebuilt  in order to optimize the troughput and space for the masses of people. Here the before and after situation of the Mensa are simulated and analyzed to judge the renovation's improvement
 
 ## The Model
 During the two hours of food service a dynamic flow of people enter the Mensa. This flow depends on the end of the different student's classes as well as the breaktime of the academical staff. It can be simulated whith different density peaks representing the end of a class. Additional a group dynamic must be implemented because normally people don't eat alone in such a setting.
