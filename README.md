@@ -15,22 +15,22 @@ The Mensa is differatiated in three different parts:
 - 1. obtaining food and pay for it
 - 2. search a place to sit and eat
 - 3. return the dishes and leave
- 1. In this part line formation apears. People line in according to their chosen menu which is considered as a long-range interaction. After receiving the food the interaction immediately changes to the requirement to pay for the food an walk to the chash box. Due to the high flow of the people line formation is observed again. Hte specific architecture of the food stations and cash boxes play an important role in this part.
+ 1. In this part line formation apears. People line in according to their chosen menu which is considered as a long-range interaction. After receiving the food the interaction immediately changes to the requirement to pay for the food an walk to the chash box. Due to the high flow of the people line formation is observed again. The specific architecture of the food stations and cash boxes play an important role in this part.
  2. After passing through part 1 the search of a place to sit is obvious. When a group formation before entering the Mensa is assumed the needs for the place to sit is bound to several of the group's parameters e.g. amount of people. Then people eat the food which takes time. This will be simulated by an averaged eating time with some deviations.
  3. After eating the dishes have to be returned and the Mensa is left using the nearest exit. 
 
 ## Fundamental Questions
 How does the flow of the people look like?
 What is the average time to pass through part 1? Are there big differences depending on time?
-How does the group formation influence the choice od the seats? Are there gaps?
+How does the group formation influence the choice or the seats? Are there gaps?
 What role has the Mensa's architecture? 
-How did the throughput improce since the renovation? Are there weak points of the new design?
+How did the throughput improve since the renovation? Are there weak points of the new design?
 
 
 
 ## Expected Results
 
-A clear improvent of the thoughput is expected due to more food stations more cash boxes and more place to sit. However a clear weak point will be int the last part by returning the dishes. This is showns by the empirical observed line formation at the station where the dishes should be returned. 
+A clear improvent of the thoughput is expected due to more food stations more cash boxes and more place to sit. However a clear weak point will be in the last part by returning the dishes. This is shown by the empirical observed line formation at the station where the dishes should be returned. 
 
 
 ## References 
