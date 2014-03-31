@@ -2,7 +2,7 @@
 (text between brackets to be removed)
 
 > * Group Name: (Mensa)
-> * Group participants names: (Bissig Raphael, Hottinger Daniel)
+> * Group participants names: (Bissig Raphael,Hottinger Daniel)
 > * Project Title: Simulating behavoir in the Mensa at HCI, ETH Hoenggerberg using CA and agent based approaches
 
 ## General Introduction
